@@ -1,0 +1,9 @@
+<div>
+      {contest.slice(2, 12).map(latestContest => {
+        return(
+          <div key={latestContest.url}>
+            {latestContest.name} - {latestContest.url}
+          </div>
+        )
+      })}
+    </div>
